@@ -1,0 +1,22 @@
+{
+  "channelId": "1371184682",
+  "destination": {
+    "id": "-1001784107294",
+    "type": "telegram"
+  },
+  "frequencyInSeconds": 90,
+  "filter": [
+    {
+      "contains": "\\b(available|slots)\\b",
+      "excludes": "\\b(no|na|not|refresh|please|report|agent|spam)\\b",
+      "type": "text"
+    },
+    {
+      "type": "media"
+    },
+    {
+      "contains": "\\b(no|na|not|refresh|please|report|agent|spam)\\b",
+      "type": "text"
+    }
+  ]
+}
